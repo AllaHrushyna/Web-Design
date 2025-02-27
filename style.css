@@ -1,0 +1,50 @@
+
+body {
+    color:#5507af;
+    background-color: rgb(245, 247, 226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: rgb(2, 182, 152);
+}
+
+@media (min-width: 750px) {
+
+}
+
+@media (min-width: 1250px) {
+    
+}
+
+header {
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+h1 {
+    padding: 1rem;
+    color: blue;
+}
+
+.nav {
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 55px 15px #59545e;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav a {
+    color: #0b9e86;
+    text-decoration: none;
+}
+
+.checkbtn {
+    font-size: 5rem;
+    color: rgb(6, 123, 219);
+    cursor: pointer;
+}
