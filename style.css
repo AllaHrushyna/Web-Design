@@ -1,9 +1,10 @@
 
 body {
-    color:#5507af;
-    background-color: rgb(245, 247, 226);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
+   margin-left: 210px;
 }
+
+/*
 h1 {
     color: rgb(2, 182, 152);
 }
@@ -16,6 +17,44 @@ h1 {
     
 }
 
+*/
+.sidebar-menu {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar-menu a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(226, 219, 219);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sidebar-menu a:hover {
+    color: whitesmoke;
+}
+
+.main {
+    padding: 0px, 10px;
+}
+
+
+
+
+
+
+
+/*
 header {
     display: flex;
    flex-direction: row;
@@ -48,3 +87,29 @@ h1 {
     color: rgb(6, 123, 219);
     cursor: pointer;
 }
+
+*/
+   /*
+    <header>
+
+        <div class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="menu">&equiv;</i>
+            </label>
+            <div class="nav-menu">
+                <a href="">index.thml</a>
+                <a href="">style.css</a>
+                <a href="">mijnJavaScript.js</a>
+                <a href="">SRC</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="img-link">
+    <img class="start-beeld" src="src/pizza-margherita.jpg" alt="">
+    <a href="https://www.youtube.com/watch?v=xKDnD8sJsuY">video tutorial</a>
+</div>
+    */
