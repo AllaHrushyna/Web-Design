@@ -1,23 +1,69 @@
+
+@font-face {
+    font-family: APL2741;
+    src: url(Fonts/APL2741Unicode.ttf);}
+
+@font-face {
+    font-family: Boris;
+    src: url(Fonts/Boris.otf);}
+
+@font-face {
+    font-family: Love Craft Italic;
+    src: url(Fonts/Love\ Craft\ Italic.ttf);}
+
+@font-face {
+    font-family: SimpleHandmade;
+    src: url(Fonts/SimpleHandmade.otf);}
+
+@font-face {
+    font-family: Cinzel-Medium;
+    src: url(Fonts/Cinzel/Cinzel-Medium.ttf);}
+
+@font-face {
+    font-family: Cinzel-Bold;
+    src: url(Fonts/Cinzel/Cinzel-Bold.ttf);}
+
+@font-face {
+    font-family: Castoro Titling Regular;
+    src: url(Fonts/CastoroTitling-Regular.ttf);}
+
+@font-face {
+    font-family: Tenor Sans Regular;
+    src: url(Fonts/TenorSans-Regular.ttf);}
+
+@font-face {
+    font-family: Dosis Variable;
+    src: url(Fonts/Dosis-VariableFont_wght.ttf);}
+
+@font-face {
+    font-family: Allerta Stencil Regular;
+    src: url(Fonts/AllertaStencil-Regular.ttf);}
+    
+@font-face {
+    font-family: Keania One Regular;
+    src: url(Fonts/KeaniaOne-Regular.ttf);}
+
+@font-face {
+    font-family: Merienda Variable;
+    src: url(Fonts/Merienda-VariableFont_wght.ttf);}
+
+@font-face {
+    font-family: Quicksand Variable;
+    src: url(Fonts/Quicksand-VariableFont_wght.ttf);}
+    
+    
 /* voor alle pagina's*/
 
 body {
     font-family: sans-serif;
-   margin-left: 275px;
-}
+   margin-left: 275px;}
 
 /*
-h1 {
-    color: rgb(2, 182, 152);
-}
-
 @media (min-width: 750px) {
-
 }
 
-@media (min-width: 1250px) {
-    
+@media (min-width: 1250px) {  
 }
-
 */
 .sidebar-menu {
     height: 100%;
@@ -28,31 +74,194 @@ h1 {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 16px;
-}
+    padding-top: 16px;}
 
 .sidebar-menu a {
     padding: 10px;
     text-decoration: none;
     font-size: 40px;
-    color: rgb(226, 219, 219);
+    color: rgb(211, 208, 208);
     display: flex;
-    flex-direction: row;
-
-}
+    flex-direction: row;}
 
 .sidebar-menu a:hover {
-    color: whitesmoke;
-}
+    color: rgb(231, 28, 99);
+    text-shadow: 5px 5px 15px rgb(245, 96, 171);
+    cursor: pointer;}
+
+/*HOMEPAGE.HTML*/
 
 .main {
-    padding: 0px, 10px;
+    padding: 15px;
+    background-color: #f38d7363;
+    border-radius: 20px;}
+
+.body-homePage {
+    background-image: url(src/beeld-homepage.png);
+    background-size: cover;}
+
+.body-homePage h1 {
+    font-family: Cinzel-Bold;
+    font-size: 90px;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    color: #04094d;
+    -webkit-text-stroke: 0px rgb(248, 232, 88);
+    background-color: rgba(134, 255, 184, 0.712);
+    border-radius: 15px;}
+
+.body-homePage p {
+    font-size: 25px;
+    font-family: Quicksand Variable;
+    letter-spacing: 2px;
+    font-style: oblique;        /*italic*/
+    font-weight: light;         /*bold, bolder, light, lighter*/
+    }       /*text-transformation: uppercase;*/
+
+mark {
+    color: #2e021c;
+    background-color: rgba(252, 248, 214, 0.781);}
+
+footer {
+    font-family: SimpleHandmade;
+    font-size: 25px;}
+
+.main hr { 
+    /*color: rgb(64, 2, 70);        werkt niet!
+    stroke-width: 50px;
+    size: 50px;                 
+    width: 50px;*/}
+
+/*STYLE.HTML*/
+
+.body-style {
+    background: linear-gradient(to top, rgb(248, 140, 221) 10%, rgb(243, 243, 158) 50%, rgb(163, 215, 228) 90%);}
+
+.body-style p{
+    font-family: Merienda Variable;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    background: linear-gradient(to top, rgb(107, 2, 107) 20%, rgb(190, 190, 2) 50%, rgb(255, 3, 3) 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgb(43, 41, 41);}
+
+
+
+/*JAVASCRIPT.HTML*/
+
+.body-javaScript {
+    background-image: url(src/beeld-javascript.png);
+    background-size: cover;}
+
+.body-javaScript h1{
+    font-family: Keania One Regular;
+    font-size: 120px;
+    margin: 20px;
+    
+    color: #790197c9;
+    /*text-align: center;    werkt niet
+    -webkit-text-stroke: 1px rgb(85, 1, 43);*/}
+
+.body-javaScript hr { 
+     /*color: rgb(64, 2, 70);        werkt niet!
+    size: 50px;*/}
+
+.beeld-sunflower {
+    width: auto;
+    height: 200px;
+    margin: 10px;}
+
+.titel-javaScript {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+.list-javaScript {
+    margin: 5px;
+    border: #8a436c;}
+
+.list-javaScript dt {
+    font-size: 30px;
+    /*margin: 5px, 10px;*/}
+
+.list-javaScript dd {
+    font-size: 25px;
+    /*margin: 0px, 20px, 0px, 50px;*/}
+
+
+
+/*SRC.HTML*/
+
+.body-src {
+    background-image: url(src/beeld-src.png);
+    background-size: cover;  }
+
+/*PROGRAMMAS.HTML*/
+
+.body-programmas {
+    background-image: url(src/beeld-programma.png);
+    background-size: cover;  }
+
+/*.list-programma dt {
+    font-size: 50px;
+    font-weight: bold;
+    background-image: url(src/list-programmas.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(18, 2, 59);}*/
+
+ /*{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+  */
+
+/*INSPIRATIE.HTML*/
+
+.body-inspiratie {
+    background-image: url(src/beeld-inspiratie.png);
+    background-size: cover;  }
+
+.titel-list-inspiratie {
+    font-family: Castoro Titling Regular;
 }
 
+.list-inspiratie {
+    font-family: Tenor Sans Regular;
+}
 
+.titel-list-p5-inspiratie {
+    font-family: Castoro Titling Regular;
+}
 
+.list-p5-inspiratie {
+    font-family: Tenor Sans Regular;
+}
 
+/*.list-inspiratie dd {
+    font-size: 50px;
+    font-weight: bold;
+    background-image: url(src/list-programmas.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(18, 2, 59);}*/
 
+/*p5 implementeren*/
+
+.body-p5implementeren {
+    margin: auto;
+    background-color: rgb(177,238,248);}
+
+.body-p5implementeren h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    color: rgb(247, 229, 73);
+    -webkit-text-stroke: 1.2px #050775;}
 
 
 /*
