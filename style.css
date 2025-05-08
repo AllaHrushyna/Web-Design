@@ -51,12 +51,44 @@
     font-family: Quicksand Variable;
     src: url(Fonts/Quicksand-VariableFont_wght.ttf);}
     
+@font-face {
+    font-family: Protest Guerrilla Regular;
+    src: url(Fonts/Protest\ Guerrilla\ Regular.ttf);}
+    
     
 /* voor alle pagina's*/
 
 body {
-    font-family: sans-serif;
-   margin-left: 275px;}
+    font-size: 25px;
+    font-family: Tenor Sans Regular;
+    margin-left: 275px;}
+
+h1 {
+    font-size: 120px;
+    font-family: Cinzel-Bold;
+    text-decoration: underline;
+    color: #2e021c;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;}
+
+h2 {
+    font-size: 40px;
+    font-family: Castoro Titling Regular;
+    text-decoration: underline;
+    margin: 10px;}
+
+h3 {
+    font-size: 30px;
+    margin: 10px;}
+
+p {
+    margin: 10px;}
+
+dt {
+    margin: 15px;}
+
+
 
 /*
 @media (min-width: 750px) {
@@ -80,20 +112,21 @@ body {
     padding: 10px;
     text-decoration: none;
     font-size: 40px;
-    color: rgb(211, 208, 208);
+    color: rgba(211, 252, 229, 0.904);
     display: flex;
     flex-direction: row;}
 
 .sidebar-menu a:hover {
-    color: rgb(231, 28, 99);
-    text-shadow: 5px 5px 15px rgb(245, 96, 171);
+    background-color: rgb(0, 235, 157);
+    color: rgb(0, 0, 0);
     cursor: pointer;}
+    /*text-shadow: 5px 5px 15px rgb(245, 96, 171);*/
 
 /*HOMEPAGE.HTML*/
 
 .main {
     padding: 15px;
-    background-color: #f38d7363;
+    background-color: #ddb1f785;
     border-radius: 20px;}
 
 .body-homePage {
@@ -102,30 +135,32 @@ body {
 
 .body-homePage h1 {
     font-family: Cinzel-Bold;
-    font-size: 90px;
+    font-size: 100px;
     text-align: center;
     text-decoration: underline;
     margin: auto;
     color: #04094d;
-    -webkit-text-stroke: 0px rgb(248, 232, 88);
-    background-color: rgba(134, 255, 184, 0.712);
-    border-radius: 15px;}
+    background-color: rgba(55, 245, 252, 0.363);
+    border-radius: 20px;}
+    /*-webkit-text-stroke: 0px rgb(248, 232, 88);*/
 
 .body-homePage p {
     font-size: 25px;
-    font-family: Quicksand Variable;
+    font-family: Tenor Sans Regular;
     letter-spacing: 2px;
-    font-style: oblique;        /*italic*/
-    font-weight: light;         /*bold, bolder, light, lighter*/
-    }       /*text-transformation: uppercase;*/
+    font-weight: light; } 
+    /*font-style: oblique;       / italic
+    bold, bolder, light, lighter
+    text-transformation: uppercase;*/
 
 mark {
     color: #2e021c;
-    background-color: rgba(252, 248, 214, 0.781);}
+    background-color: rgba(228, 118, 238, 0.199);}
 
 footer {
-    font-family: SimpleHandmade;
-    font-size: 25px;}
+    font-family: Merienda Variable;
+    font-size: 20px;
+    text-align: end;}
 
 .main hr { 
     /*color: rgb(64, 2, 70);        werkt niet!
@@ -133,22 +168,76 @@ footer {
     size: 50px;                 
     width: 50px;*/}
 
-/*STYLE.HTML*/
+/*HTML.HTML*/
 
-.body-style {
-    background: linear-gradient(to top, rgb(248, 140, 221) 10%, rgb(243, 243, 158) 50%, rgb(163, 215, 228) 90%);}
+.body-HTML {
+    background-image: url(src/beeld-html.png);
+    background-size: cover;}
 
-.body-style p{
+.titel-HTML h1{
+    width: 400px;
+    height: auto;
+    background-image: url(src/background-3.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgb(22, 22, 22);}
+
+.main-HTML {
+    background-color: #f7042441;
+    border-radius: 20px;
+    padding: 15px;}
+
+.main-HTML h2 {
+    text-transform: capitalize;
+    background-color: #91087f46;
+    border-radius: 20px;
+    padding: 15px;}
+
+.main-HTML h3 {
+    background-color: #5c0af53b;
+    border-radius: 20px;
+    padding: 15px;}
+
+.main-HTML mark {
+    color: #020338;
+    background-color: #a4a5f859;
+    }
+
+.main-HTML ul {
+    background-color: #829efc4d;
+    border-radius: 20px;}
+
+/*CSS.HTML*/
+
+.body-CSS {
+    background: linear-gradient(to top, rgb(163, 215, 228) 10%, rgb(243, 243, 158) 60%, rgb(250, 172, 230) 80%);}
+
+.body-CSS p{
     font-family: Merienda Variable;
     font-size: 60px;
     text-transform: capitalize;
-    text-align: center;
     background: linear-gradient(to top, rgb(107, 2, 107) 20%, rgb(190, 190, 2) 50%, rgb(255, 3, 3) 85%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px rgb(43, 41, 41);}
+    -webkit-text-stroke: 1px rgb(43, 41, 41);}
 
+.titel-CSS h1{
+    width: 250px;
+    height: auto;
+    background-image: url(src/background-23.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(22, 22, 22);}
 
+.titel-CSS {
+    display: flex;
+    flex-direction: row;}
+
+.body-CSS p {
+    font-size: 35px;
+}
 
 /*JAVASCRIPT.HTML*/
 
@@ -165,9 +254,9 @@ footer {
     /*text-align: center;    werkt niet
     -webkit-text-stroke: 1px rgb(85, 1, 43);*/}
 
-.body-javaScript hr { 
-     /*color: rgb(64, 2, 70);        werkt niet!
-    size: 50px;*/}
+/*.body-javaScript hr { 
+     color: rgb(64, 2, 70);        werkt niet!
+    size: 50px;}*/
 
 .beeld-sunflower {
     width: auto;
@@ -205,20 +294,12 @@ footer {
     background-image: url(src/beeld-programma.png);
     background-size: cover;  }
 
-/*.list-programma dt {
-    font-size: 50px;
-    font-weight: bold;
-    background-image: url(src/list-programmas.png);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px rgb(18, 2, 59);}*/
+.titel-list-programmas, .titel-list-beeld-verwerking-programmas {
+    font-size: 40px;}
 
- /*{
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
-  */
+.list-programmas, .list-beeld-programmas {
+    font-size: 25px;}
+
 
 /*INSPIRATIE.HTML*/
 
@@ -226,21 +307,14 @@ footer {
     background-image: url(src/beeld-inspiratie.png);
     background-size: cover;  }
 
-.titel-list-inspiratie {
-    font-family: Castoro Titling Regular;
+.titel-list-inspiratie, .titel-list-p5-inspiratie {
+    font-size: 40px;
 }
 
-.list-inspiratie {
-    font-family: Tenor Sans Regular;
+.list-inspiratie, .list-p5-inspiratie {
+    font-size: 25px;
 }
 
-.titel-list-p5-inspiratie {
-    font-family: Castoro Titling Regular;
-}
-
-.list-p5-inspiratie {
-    font-family: Tenor Sans Regular;
-}
 
 /*.list-inspiratie dd {
     font-size: 50px;
