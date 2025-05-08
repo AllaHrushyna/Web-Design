@@ -150,7 +150,6 @@ dt {
     letter-spacing: 2px;
     font-weight: light; } 
     /*font-style: oblique;       / italic
-    bold, bolder, light, lighter
     text-transformation: uppercase;*/
 
 mark {
@@ -162,11 +161,11 @@ footer {
     font-size: 20px;
     text-align: end;}
 
-.main hr { 
-    /*color: rgb(64, 2, 70);        werkt niet!
+/*.main hr { 
+    color: rgb(64, 2, 70);        werkt niet!
     stroke-width: 50px;
     size: 50px;                 
-    width: 50px;*/}
+    width: 50px;}*/
 
 /*HTML.HTML*/
 
@@ -201,8 +200,7 @@ footer {
 
 .main-HTML mark {
     color: #020338;
-    background-color: #a4a5f859;
-    }
+    background-color: #a4a5f859;}
 
 .main-HTML ul {
     background-color: #829efc4d;
@@ -236,8 +234,7 @@ footer {
     flex-direction: row;}
 
 .body-CSS p {
-    font-size: 35px;
-}
+    font-size: 35px;}
 
 /*JAVASCRIPT.HTML*/
 
@@ -308,12 +305,10 @@ footer {
     background-size: cover;  }
 
 .titel-list-inspiratie, .titel-list-p5-inspiratie {
-    font-size: 40px;
-}
+    font-size: 40px;}
 
 .list-inspiratie, .list-p5-inspiratie {
-    font-size: 25px;
-}
+    font-size: 25px;}
 
 
 /*.list-inspiratie dd {
