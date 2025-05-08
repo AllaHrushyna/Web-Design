@@ -180,7 +180,7 @@ footer {
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px rgb(22, 22, 22);}
+    -webkit-text-stroke: 0.5px rgb(11, 104, 73);}
 
 .main-HTML {
     background-color: #f7042441;
@@ -209,11 +209,19 @@ footer {
 /*CSS.HTML*/
 
 .body-CSS {
-    background: linear-gradient(to top, rgb(163, 215, 228) 10%, rgb(243, 243, 158) 60%, rgb(250, 172, 230) 80%);}
+    background-image: url(src/beeld-css.png);
+    background-size: contain;
+    /*background: linear-gradient(to top, rgb(163, 215, 228) 10%, rgb(243, 243, 158) 60%, rgb(250, 172, 230) 80%);*/}
+
+.oefening-CSS {
+    background: linear-gradient(to top, rgb(163, 215, 228) 10%, rgb(243, 243, 158) 60%, rgb(250, 172, 230) 80%);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;}
 
 .body-CSS p{
     font-family: Merienda Variable;
-    font-size: 60px;
+    font-size: 35px;
     text-transform: capitalize;
     background: linear-gradient(to top, rgb(107, 2, 107) 20%, rgb(190, 190, 2) 50%, rgb(255, 3, 3) 85%);
     -webkit-background-clip: text;
@@ -227,14 +235,23 @@ footer {
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px rgb(22, 22, 22);}
+    -webkit-text-stroke: 1px rgb(134, 40, 40);}
 
 .titel-CSS {
     display: flex;
     flex-direction: row;}
 
-.body-CSS p {
-    font-size: 35px;}
+.oefening-CSS p {
+    font-size: 60px;}
+
+.oefening-CSS h2 {
+    font-size: 100px;
+    background: linear-gradient(to right, rgb(0, 247, 95) 10%, rgb(0, 89, 255) 100%);
+    width: 570px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgb(136, 123, 123);}
+   }
 
 /*JAVASCRIPT.HTML*/
 
