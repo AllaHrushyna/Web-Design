@@ -126,7 +126,7 @@ dt {
 
 .main {
     padding: 15px;
-    background-color: #ddb1f785;
+    background-color: #adf6fc60;
     border-radius: 20px;}
 
 .body-homePage {
@@ -140,7 +140,7 @@ dt {
     text-decoration: underline;
     margin: auto;
     color: #04094d;
-    background-color: rgba(55, 245, 252, 0.363);
+    background-color: rgba(55, 252, 219, 0.363);
     border-radius: 20px;}
     /*-webkit-text-stroke: 0px rgb(248, 232, 88);*/
 
@@ -180,7 +180,7 @@ footer {
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px rgb(11, 104, 73);}
+    -webkit-text-stroke: 0.5px rgb(2, 95, 64);}
 
 .main-HTML {
     background-color: #f7042441;
@@ -249,9 +249,9 @@ footer {
     background: linear-gradient(to right, rgb(0, 247, 95) 10%, rgb(0, 89, 255) 100%);
     width: 570px;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px rgb(136, 123, 123);}
-   }
+    -webkit-text-fill-color: transparent;}
+    /*-webkit-text-stroke: 0px rgb(82, 80, 80);*/
+   
 
 /*JAVASCRIPT.HTML*/
 
